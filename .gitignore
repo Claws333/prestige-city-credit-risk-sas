@@ -1,0 +1,19 @@
+# SAS-generated data and catalogs
+*.sas7bdat
+*.sas7bcat
+*.sas7bndx
+*.sas7bitm
+*.sashdat
+*.lck
+
+# Run artefacts
+logs/*.log
+output/*
+!output/.gitkeep
+data/*
+!data/.gitkeep
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+*.swp
